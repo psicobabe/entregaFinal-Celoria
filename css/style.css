@@ -4,6 +4,32 @@ body {
 h1 {
   font-family: 'Patrick Hand SC'; }
 
+html {
+  font-size: 16px;
+  font-family: Arial, sans-serif; }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+img {
+  height: auto; }
+
+ul,
+ol {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
 .nav-link:hover {
   color: #ffffff; }
 
