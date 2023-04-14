@@ -1,0 +1,19 @@
+.nav-link {
+  &:hover {
+    color: #ffffff;
+  }
+
+  &.active {
+    font-weight: bold;
+  }
+}
+
+footer {
+  .bi {
+    color: white;
+
+    &:hover {
+      color: #f0ac1f;
+    }
+  }
+}

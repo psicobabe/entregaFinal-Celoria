@@ -12,6 +12,12 @@
         min-height: 100%;
         width: auto;
         height: auto;
+        opacity: 0;
+        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+        &.fade-in {
+            animation-play-state: running;
+        }
     }
 
     & .container {
@@ -20,5 +26,15 @@
         & .bg-white {
             background-color: rgba(255, 255, 255, 0.8);
         }
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
