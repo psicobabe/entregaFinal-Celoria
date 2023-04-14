@@ -1,0 +1,17 @@
+.pagina_contacto {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+        overflow-y: auto;
+        padding-bottom: 0%;
+        padding-top: 50px;
+    }
+
+    & .bg-color {
+        background-color: #eee7e0;
+    }
+}

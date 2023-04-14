@@ -1,0 +1,39 @@
+.donde_encontrarnos {
+    padding-top: 50px;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+
+    & .local_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+    & .titulo_local {
+        color: #F1AD1F;
+
+        @media (max-width: 767px) {
+            padding-top: 50px;
+        }
+    }
+
+    & .texto_local {
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: justify;
+
+        @media (max-width: 767px) {
+            margin-left: 10px;
+            margin-right: 10px;
+            padding-bottom: 50px;
+            text-align: center;
+        }
+    }
+    }
+    #mapa_local {
+        padding-top: 0px;
+        height: 40vh;
+    }
+}
+
