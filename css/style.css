@@ -30,6 +30,9 @@ a {
   text-decoration: none;
   color: inherit; }
 
+.navbar {
+  background-color: #F1AD1F; }
+
 .nav-link:hover {
   color: #ffffff; }
 
